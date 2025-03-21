@@ -1,0 +1,104 @@
+/* Your styles here */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+body {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  background-color: #e9edee;
+}
+
+/* HEADER*/
+.logo {
+  text-align: left;
+  background-color: #22303f;
+  padding-left: 1.5rem;
+  padding-block: 0.5rem;
+}
+
+.toplist {
+  background-color: #364759;
+  padding-block: 1rem;
+}
+
+.toplist li {
+  display: inline-block;
+  color: white;
+  margin: 1%;
+}
+
+/* MAIN*/
+main {
+  width: 90%;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+.orange {
+  text-align: center;
+  background-color: #f56601;
+  color: white;
+  padding: 0.6rem;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.mainimg {
+  background-image: url(../images/bg-image.png);
+  background-position-y: center;
+  text-align: center;
+  padding-block: 5rem;
+  font-size: 2rem;
+  color: white;
+}
+
+.centersection {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  height: 30rem;
+  background-color: white;
+}
+.img1 {
+  display: inline-block;
+  background-image: url(../images/img_1.jpg);
+  min-height: 25vh;
+  background-position-y: center;
+  background-size: cover;
+}
+.img2 {
+  display: inline-block;
+  background-image: url(../images/img_2.jpg);
+  min-height: 25vh;
+
+  background-position-y: center;
+  background-size: cover;
+}
+
+.im3 {
+  display: inline-block;
+  background-image: url(../images/img_3.jpg);
+  min-height: 25vh;
+  background-position-y: center;
+  background-size: cover;
+}
+
+.img4 {
+  display: inline-block;
+  background-image: url(../images/img_4.jpg);
+  min-height: 25vh;
+  background-position-y: center;
+  background-size: cover;
+}
+
+.VR {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.VR img {
+  max-width: 100%;
+}
+
+.cassa img {
+  max-width: 100%;
+}
